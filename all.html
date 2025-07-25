@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selectors Example</title>
+    <style>
+        /* Element selector */
+        p {
+            font-family: Arial;
+        }
+        /*ID selector */
+        #intro   {
+            font-size: 20px;
+            color: darkgreen;
+
+        }
+        /*Class selector */
+        .highlight {
+            background-color: lightyellow;
+            border: 1px solid orange;
+            padding: 8px;
+        }
+        /*Descedant selector */
+        .card  p {
+            color: blue;
+    
+        }
+        /*Direct descendant selector*/
+        .container > p {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <p>This is a normal paragraph.</p>
+
+    <p id="intro">This is an intro paragraph with an ID</p>
+
+    <div class="highlight">This is a highlighted div using a class.</div>
+
+    <div class="card">
+        <p>This paragraph is inside .card (descedant).</p>
+    </div>
+
+    <div class="container">
+        <p>This is a direct child (styled)</p>
+    <div>
+        <p>This is a nested child (NOT styled by direct descendant)</p>
+     </div>
+    </div>
+</body>
+</html>

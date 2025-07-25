@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:burlywood;
+    margin: 0;
+    padding: 0;
+}
+.card {
+    background-color: aliceblue;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border:1px solid #ddd ;
+    border-radius: 10px;
+    box-shadow: 0, 0, 10px;
+    text-align: center;
+}
+.card h1 {
+    color: aqua;
+}
+.card img {
+    border-radius: 50%;
+    border: green 4px solid;
+    width: 150px;
+    margin-left: 200px;
+    display: block;
+}
+.section  {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.card p {
+    color: grey;
+}
+#second-paragraph {
+    color: blue;
+}
